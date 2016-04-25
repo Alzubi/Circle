@@ -11,6 +11,7 @@ public class MainClass {
 		System.out.println("circ1 < circ2 ? Should return -1: " + circ1.compareTo(circ2));
 		System.out.println("circ2 < circ1 ? Should return 1: " + circ2.compareTo(circ1));
 		System.out.println("Test is done");
+		System.out.println("Second Test is done");
 	}
 
 }
