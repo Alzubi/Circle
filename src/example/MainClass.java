@@ -4,8 +4,10 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 
-		Comparable circ1 = new Circle(10);
-		Comparable circ2 = new Circle(20);
+		Comparable circ1 = new Circle(20);
+		Comparable circ2 = new Circle(30);
+		
+		
 		
 		System.out.println("circ1 == circ2 " + circ1.equals(circ2));
 		System.out.println("circ1 < circ2 ? Should return -1: " + circ1.compareTo(circ2));
